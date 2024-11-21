@@ -3,7 +3,7 @@ const pageConfig = {
   title: "AVATR's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://am.809098.xyz', label: 'OK', highlight: true },
+    { link: 'https://love-ok-qinglong.hf.space/login', label: 'OK', highlight: true },
     { link: 'https://avatr07-qinglong.hf.space/login', label: 'AVATR' },
   ],
 }
@@ -23,6 +23,15 @@ const workerConfig = {
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://avatr07-qinglong.hf.space/login',
+      timeout: 10000,
+    },  
+    {
+      id: 'love-ok',
+      name: 'love-ok',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://love-ok-qinglong.hf.space/login',
       timeout: 10000,
     },
   ],
