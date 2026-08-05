@@ -17,8 +17,8 @@ const workerConfig = {
   monitors: [
     // Example TCP Monitor
     {
-      id: 'minTV',
-      name: 'minTV',
+      id: 'MinTV',
+      name: 'MinTV',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
