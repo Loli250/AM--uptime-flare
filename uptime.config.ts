@@ -3,8 +3,8 @@ const pageConfig = {
   title: "AVATR's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://love-ok-qinglong.hf.space/login', label: 'OK', highlight: true },
-    { link: 'https://avatr07-qinglong.hf.space/login', label: 'AVATR' },
+    { link: 'https://mikany-rainbow.hf.space/', label: 'LOVE', highlight: true },
+    { link: 'hhttps://taylorna-nature.hf.space/', label: 'AVATR', highlight: true },
   ],
 }
 
@@ -17,21 +17,21 @@ const workerConfig = {
   monitors: [
     // Example TCP Monitor
     {
-      id: 'qinglong',
-      name: 'qinglong',
+      id: 'minTV',
+      name: 'minTV',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://avatr07-qinglong.hf.space/login',
+      target: 'https://mikany-rainbow.hf.space/',
       timeout: 10000,
     },  
     {
-      id: 'love-ok',
-      name: 'love-ok',
+      id: 'NewTV',
+      name: 'NewTV',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://love-ok-qinglong.hf.space/login',
+      target: 'https://taylorna-nature.hf.space/',
       timeout: 10000,
     },
   ],
