@@ -3,8 +3,8 @@ const pageConfig = {
   title: "AVATR's Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://mikany-rainbow.hf.space/', label: 'LOVE', highlight: true },
-    { link: 'hhttps://taylorna-nature.hf.space/', label: 'AVATR', highlight: true },
+    { link: 'https://mikany-rainbow.hf.space/login?redirect=%2F', label: 'LOVE', highlight: true },
+    { link: 'https://taylorna-nature.hf.space/login?redirect=%2F', label: 'AVATR', highlight: true },
   ],
 }
 
