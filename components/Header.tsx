@@ -23,7 +23,7 @@ export default function Header() {
         <div>
           <a href="https://www.youtube.com/@AM_CLUB" target="_blank">
             <Text size="xl" span>
-              🕒
+              🎉
             </Text>
             <Text
               size="xl"
@@ -32,7 +32,7 @@ export default function Header() {
               variant="gradient"
               gradient={{ from: 'blue', to: 'cyan', deg: 90 }}
             >
-              服务监控
+              Service Monitoring
             </Text>
           </a>
         </div>
